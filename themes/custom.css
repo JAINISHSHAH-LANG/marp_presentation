@@ -1,0 +1,14 @@
+section {
+  background: #fdf6e3;
+  color: #073642;
+  font-family: "Segoe UI", sans-serif;
+}
+
+h1, h2, h3 {
+  color: #b58900;
+}
+
+blockquote {
+  font-style: italic;
+  color: #586e75;
+}

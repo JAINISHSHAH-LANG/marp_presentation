@@ -1,0 +1,14 @@
+{
+  "name": "marp_presentation",
+  "version": "1.0.0",
+  "description": "Marp presentation project",
+  "scripts": {
+    "start": "marp -s .",
+    "build": "marp slides.md -o dist/slides.html --allow-local-files",
+    "pdf": "marp slides.md --pdf --allow-local-files",
+    "pptx": "marp slides.md --pptx --allow-local-files"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.0.0"
+  }
+}
