@@ -1,49 +1,36 @@
 ---
 marp: true
-theme: gaia
+theme: custom
 paginate: true
-backgroundColor: #fff
-author: 24f1002326@ds.study.iitm.ac.in
+headingDivider: 2
 ---
 
-# Product Documentation
-## TechDocs Enterprise API
+# 📘 Product Documentation Presentation
 
-**Author:** 24f1002326@ds.study.iitm.ac.in
-*Technical Writer Team*
-
----
-
-## Algorithmic Complexity
-
-We use optimized search algorithms for our semantic document search.
-
-The time complexity for the vector search is calculated as:
-
-$$
-O(n \log n)
-$$
-
-Where:
-* $n$ is the number of document vectors.
-* $k$ is the dimensionality.
+👤 **Author:**  
+📧 **24f1002326@ds.study.iitm.ac.in**   <!-- REQUIRED EMAIL -->
 
 ---
 
-## Feature Breakdown
+## 📌 Why Use Marp?
 
-| Feature | Status | Priority |
-| :--- | :--- | :--- |
-| PDF Parsing | ✅ Done | High |
-| RAG System | ✅ Done | High |
-| Image Recon | 🚧 WIP | Medium |
+Marp allows technical writers to:
+
+- Maintain slides under **version control (Git)**
+- Write using **Markdown instead of PowerPoint**
+- Export to **PDF, PPTX, and HTML**
+- Automate publishing using **CI/CD**
 
 ---
 
-![bg opacity:.6](background.jpg)
+## 🧩 Custom Styling with Marp Directives
 
-# Future Roadmap
+Marp enables custom configuration directly inside the Markdown file:
 
-* **Q1:** Integration with OpenAI Vision
-* **Q2:** Enhanced Steganography Security
-* **Q3:** Real-time Collaboration Tools
+```markdown
+---
+marp: true
+theme: custom
+paginate: true
+---
+
